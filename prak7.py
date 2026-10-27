@@ -7,4 +7,5 @@ def create_db():
         cursor = conn.cursor()
         cursor.execute("""
             CREATE TABLE IF NOT EXSIST nilai_siswa(
-                id ))
+                id INTERGER PRIMARY KEY AUTOINCREMENT,
+                nama_))
