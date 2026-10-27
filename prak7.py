@@ -8,4 +8,5 @@ def create_db():
         cursor.execute("""
             CREATE TABLE IF NOT EXSIST nilai_siswa(
                 id INTERGER PRIMARY KEY AUTOINCREMENT,
-                nama_))
+                nama_siswa TEXT NOT NULL,
+                biologi INTERGER NOT NULL,))
